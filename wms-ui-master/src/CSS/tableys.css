@@ -1,0 +1,6 @@
+.el-table__fixed-right-patch {
+    position: absolute;
+    top: -1px;
+    right: 0;
+    background-color: #f8f8f9 !important;
+}

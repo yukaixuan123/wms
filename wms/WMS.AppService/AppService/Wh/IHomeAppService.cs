@@ -1,0 +1,82 @@
+﻿using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+using WMS.Domain.Entity.KC;
+using WMS.Domain.Entity.Wh;
+
+namespace WMS.AppService.AppService.Wh
+{
+    public interface IHomeAppService
+    {
+        /// <summary>
+        /// 入库统计
+        /// </summary>
+        /// <returns></returns>
+        Task<IEnumerable<ST1>> HomeRKAsync();
+        /// <summary>
+        /// 出库统计
+        /// </summary>
+        /// <returns></returns>
+        Task<IEnumerable<ST2>> HomeCKAsync();
+        /// <summary>
+        /// 库存数量占比
+        /// </summary>
+        /// <returns></returns>
+        Task<IEnumerable<Wh_now_storage>> HomeSLAsync();
+        /// <summary>
+        /// 货品数量占比
+        /// </summary>
+        /// <returns></returns>
+        Task<IEnumerable<Wh_now_storage1>> HomeHPSLAsync();
+        int hpslSUM();
+        int kcslSUM();
+        /// <summary>
+        /// 入库今
+        /// </summary>
+        /// <returns></returns>
+        Task<ToYesCount> ToCountRKAsync();
+        /// <summary>
+        /// 入库昨
+        /// </summary>
+        /// <returns></returns>
+        Task<ToYesCount> YesCountRKAsync();
+        /// <summary>
+        /// 出库今
+        /// </summary>
+        /// <returns></returns>
+        Task<ToYesCount> ToCountCKAsync();
+        /// <summary>
+        /// 出库昨
+        /// </summary>
+        /// <returns></returns>
+        Task<ToYesCount> YesCountCKAsync();
+        /// <summary>
+        /// 入库排名
+        /// </summary>
+        /// <returns></returns>
+        Task<IEnumerable<PaiMing>> RKpaimingAsync();
+        /// <summary>
+        /// 出库排名
+        /// </summary>
+        /// <returns></returns>
+        Task<IEnumerable<PaiMing>> CKpaimingAsync();
+        /// <summary>
+        /// 全部待审核
+        /// </summary>
+        /// <returns></returns>
+        Task<IEnumerable<Alldsh>> ALLdskAsync();
+        /// <summary>
+        /// 全部待入库
+        /// </summary>
+        /// <returns></returns>
+        int ALLrkAsync();
+        /// <summary>
+        /// 全部待出库
+        /// </summary>
+        /// <returns></returns>
+      int ALLckAsync();
+
+    }
+}

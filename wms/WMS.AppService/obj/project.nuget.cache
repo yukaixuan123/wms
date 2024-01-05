@@ -1,0 +1,16 @@
+{
+  "version": 2,
+  "dgSpecHash": "TOCZyTgVeUaWEwHu0tU3Cau2lLjh0uQyfmorItNgYDLNOpo30cNvzUWfa6sRNB9r3Ugq+wYHQ6UrhAvj98+Z8A==",
+  "success": true,
+  "projectFilePath": "D:\\QQ\\WMS_Modern7.0\\WMS_Modern4.0\\wms\\WMS.AppService\\WMS.AppService.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\yu\\.nuget\\packages\\automapper\\12.0.1\\automapper.12.0.1.nupkg.sha512",
+    "C:\\Users\\yu\\.nuget\\packages\\automapper.extensions.microsoft.dependencyinjection\\12.0.1\\automapper.extensions.microsoft.dependencyinjection.12.0.1.nupkg.sha512",
+    "C:\\Users\\yu\\.nuget\\packages\\microsoft.csharp\\4.7.0\\microsoft.csharp.4.7.0.nupkg.sha512",
+    "C:\\Users\\yu\\.nuget\\packages\\microsoft.extensions.dependencyinjection.abstractions\\6.0.0\\microsoft.extensions.dependencyinjection.abstractions.6.0.0.nupkg.sha512",
+    "C:\\Users\\yu\\.nuget\\packages\\microsoft.extensions.options\\6.0.0\\microsoft.extensions.options.6.0.0.nupkg.sha512",
+    "C:\\Users\\yu\\.nuget\\packages\\microsoft.extensions.primitives\\6.0.0\\microsoft.extensions.primitives.6.0.0.nupkg.sha512",
+    "C:\\Users\\yu\\.nuget\\packages\\system.runtime.compilerservices.unsafe\\6.0.0\\system.runtime.compilerservices.unsafe.6.0.0.nupkg.sha512"
+  ],
+  "logs": []
+}
